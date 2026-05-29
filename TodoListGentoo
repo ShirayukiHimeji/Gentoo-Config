@@ -1,0 +1,3 @@
+must select kernel list on gentoo
+cp /usr/src/linux/arch/x86/boot/bzImage /boot/vmlinuz-{Versi Kernel}
+dracut --force /boot/initramfs-{Versi Kernel}.img {Versi Kernel}
