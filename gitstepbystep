@@ -1,0 +1,6 @@
+ssh -T git@github.com
+git remote set-url origin git@github.com:(Username)/(Repo).git
+git add .
+git commit -m "Bebas Pesan"
+git branch -M main
+git push -u origin main
